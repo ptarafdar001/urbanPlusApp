@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "UrbanPulse",
-    "slug": "UrbanPulse",
+    "slug": "urbanplus",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,10 +21,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.expo_prabir.urbanplus"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f1885c5c-369f-42df-87ce-76a9de1db742"
+      }
+    },
+    "owner": "expo_prabir",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f1885c5c-369f-42df-87ce-76a9de1db742"
     }
   }
 }
