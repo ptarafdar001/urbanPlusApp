@@ -1,0 +1,3 @@
+# Urban Plus 
+#### React Native App
+- Using React Native, JavaScript, Redux, React Navigation, etc...
